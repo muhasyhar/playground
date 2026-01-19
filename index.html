@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama Aplikasi Anda</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#000000">
+    <style>
+        /* Agar iframe memenuhi layar HP */
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+        iframe { width: 100%; height: 100%; border: none; }
+    </style>
+</head>
+<body>
+    <iframe src="https://script.google.com/macros/s/AKfycbxUg2X9bwm7V0qfLcYXToOoBMm3pAKtZO-ghBy8qTtpCsWyYeLiYakpe-cty8rubzwfYA/exec"></iframe>
+
+    <script>
+        // Registrasi Service Worker agar dianggap PWA
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
+</body>
+</html>

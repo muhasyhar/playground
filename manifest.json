@@ -1,6 +1,7 @@
 {
   "name": "Aplikasi REnT Playground",
   "short_name": "AppPgrnd",
+  "description": "Aplikasi REnT Playground untuk tujuan pembelajaran dan pengujian.",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -19,3 +20,4 @@
   ]
 
 }
+

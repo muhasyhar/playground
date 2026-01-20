@@ -1,9 +1,11 @@
 {
+  "id": "/index.html",
   "name": "Aplikasi REnT Playground",
   "short_name": "AppPgrnd",
   "description": "Aplikasi REnT Playground untuk tujuan pembelajaran dan pengujian.",
   "start_url": "/index.html",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "background_color": "#ffffff",
   "theme_color": "#000000",
   "icons": [
@@ -20,5 +22,6 @@
   ]
 
 }
+
 
 
